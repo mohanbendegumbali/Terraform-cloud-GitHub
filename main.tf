@@ -15,5 +15,5 @@ provider "aws" {
 
 resource "aws_instance" "Mohaninfra" {
 	ami = "ami-0427090fd1714168b" 
-	instance_type = "t2.nano"
+	instance_type = "t2.micro"
 }
